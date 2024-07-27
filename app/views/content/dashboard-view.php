@@ -1,22 +1,5 @@
-<section>
-			<div >
-				<!-- Start Carousel -->
-				<div id="carousel-demo" class="carousel">
-					<div class="item-1">
-						<img src="<?php echo APP_URL; ?>/app/views/img/s1.jpg" alt="">
-					</div>
-					<div class="item-2">
-                        <img src="<?php echo APP_URL; ?>/app/views/img/s1.jpg" alt="">
-					</div>
-					<div class="item-3">
-                        <img src="<?php echo APP_URL; ?>/app/views/img/s1.jpg" alt="">
-					</div>
-                    
-				</div>
-				<!-- End Carousel -->
-			</div>
-</section>
-<?php require_once "./app/views/inc/script.php";  ?>
+<?php require_once "./app/views/content/slider-view.php"; ?>
+
 <section class="section">
     <div class="container">
         <h1 class="title">

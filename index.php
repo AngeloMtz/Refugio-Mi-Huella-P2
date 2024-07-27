@@ -25,16 +25,21 @@
     $viewsController = new viewsController();
     $vista=$viewsController->obtenerVistasControlador($url[0]);
 
-    if($vista=="login" || $vista=="404"){
+    if($vista == "login" || $vista == "404") {
         require_once "./app/views/content/".$vista."-view.php";
-    }else{
-        require_once "./app/views/inc/navbar.php";
-        require_once $vista;
-        require_once "./app/views/inc/footer.php";
-    }
-
-    require_once "./app/views/inc/script.php"; 
-    
+     }
+     else {
+      if ($vista == "./app/views/content/dashboardAdmin-view.php" || $vista == "./app/views/content/crudslider-view.php"){
+         require_once "./app/views/inc/navbarAdmin.php";
+         require_once $vista;
+         require_once "./app/views/inc/footer.php";
+      }else {
+         require_once "./app/views/inc/navbar.php";
+         require_once $vista;
+         require_once "./app/views/inc/footer.php";
+      }
+     }
+     require_once "./app/views/inc/script.php";
 ?>
 </body>
 </html>

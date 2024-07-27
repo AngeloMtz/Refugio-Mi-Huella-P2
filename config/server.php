@@ -1,5 +1,5 @@
 <?php
-    const BD_SERVER = "localhost";
-    const BD_NAME = "bdrefugio";
-    const BD_USSER = "angel";
-    const BD_PASS = "angel1234";
+    const DB_SERVER = "localhost";
+    const DB_NAME = "bdrefugio";
+    const DB_USSER = "root";
+    const DB_PASS = "";

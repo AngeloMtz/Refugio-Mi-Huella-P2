@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar has-background-warning">
     <div class="navbar-brand">
         <a class="navbar-item" href="<?php echo APP_URL; ?>dashboard/">
             <img src="<?php echo APP_URL; ?>app/views/img/mi-huella.png" alt="Bulma" width="80" height="40">
@@ -16,7 +16,7 @@
             <a class="navbar-item" href="<?php echo APP_URL; ?>dashboard/">
                 Inicio
             </a>
-            <a class="navbar-item" href="">
+            <a class="navbar-item" href="<?php echo APP_URL; ?>adopt/">
                 Adopta
             </a>
             <a class="navbar-item" href="<?php echo APP_URL; ?>donar/">
@@ -28,11 +28,8 @@
                 </a>
                 <div class="navbar-dropdown is-boxed">
 
-                    <a class="navbar-item" href="<?php echo APP_URL; ?>sobrenosotros/">
+                    <a class="navbar-item" href="<?php echo APP_URL; ?>aboutus/">
                         Sobre Nosotros
-                    </a>
-                    <a class="navbar-item" href="#">
-                        Mas Informacion
                     </a>
 
                 </div>

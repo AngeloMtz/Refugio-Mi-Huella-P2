@@ -1,7 +1,7 @@
-<footer class="footer">
-  <div class="content has-text-centered">
+<footer class="footer has-background-dark has-text-white">
+  <div class="content has-text-centered ">
     <p>
-      <strong>Refugio "Mi Huella"</strong> creado por <a href="#">Angel Martinez</a>.
+      <bold>Refugio "Mi Huella"</bold> creado por <a href="#">Angel Martinez</a>.
       Este codigo esta licenciado.
     </p>
   </div>
